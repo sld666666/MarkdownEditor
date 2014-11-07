@@ -23,6 +23,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{069E29D8-0
 		cptf\core\StdLibInclude.h = cptf\core\StdLibInclude.h
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{B30ED6F5-1619-499D-AAFB-0A990D040AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rapidxml", "rapidxml", "{7415C1A6-CD50-4F88-85C4-ACECA4CD5031}"
+	ProjectSection(SolutionItems) = preProject
+		libs\rapidxml\rapidxml.h = libs\rapidxml\rapidxml.h
+		libs\rapidxml\rapidxml_iterators.h = libs\rapidxml\rapidxml_iterators.h
+		libs\rapidxml\rapidxml_print.h = libs\rapidxml\rapidxml_print.h
+		libs\rapidxml\rapidxml_utils.h = libs\rapidxml\rapidxml_utils.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libs_test", "unit\libs_test\libs_test.vcxproj", "{C8C1CE71-21B2-4F96-9652-8672069BB7F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +49,10 @@ Global
 		{154300FF-B612-4A8D-B658-AD75E2FC6F5D}.Debug|Win32.Build.0 = Debug|Win32
 		{154300FF-B612-4A8D-B658-AD75E2FC6F5D}.Release|Win32.ActiveCfg = Release|Win32
 		{154300FF-B612-4A8D-B658-AD75E2FC6F5D}.Release|Win32.Build.0 = Release|Win32
+		{C8C1CE71-21B2-4F96-9652-8672069BB7F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8C1CE71-21B2-4F96-9652-8672069BB7F6}.Debug|Win32.Build.0 = Debug|Win32
+		{C8C1CE71-21B2-4F96-9652-8672069BB7F6}.Release|Win32.ActiveCfg = Release|Win32
+		{C8C1CE71-21B2-4F96-9652-8672069BB7F6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +61,7 @@ Global
 		{2BD411F7-4B58-4CB3-B4D9-B9A33A2DCD81} = {29201017-38ED-4D10-B711-78A402C12423}
 		{069E29D8-0F25-4A95-A204-569863283C29} = {29201017-38ED-4D10-B711-78A402C12423}
 		{154300FF-B612-4A8D-B658-AD75E2FC6F5D} = {216306D9-0988-4332-820D-D5C009C9C909}
+		{C8C1CE71-21B2-4F96-9652-8672069BB7F6} = {216306D9-0988-4332-820D-D5C009C9C909}
+		{7415C1A6-CD50-4F88-85C4-ACECA4CD5031} = {B30ED6F5-1619-499D-AAFB-0A990D040AA1}
 	EndGlobalSection
 EndGlobal

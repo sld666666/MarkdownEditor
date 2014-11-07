@@ -19,17 +19,18 @@ public:
 
 	long		id(){ return id_; }
 	void		setId(const long& val){ id_ = val; }
-
 private:
+
 	wstring		name_;
 	long		id_;
 };
+
 
 TEST(TestObject, propertyTest)
 {
 	wstring comparedStr(L"1234");
 	TestObject obj;
 	obj.setProperty(L"name", comparedStr);
-	//wstring name = obj.getProperty(L"name");
+	wstring name = obj.getProperty(L"name");
 	//EXPECT_EQ(name, comparedStr);
 }
